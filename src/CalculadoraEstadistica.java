@@ -9,6 +9,6 @@ public class CalculadoraEstadistica {
 
     public static void main(String[] args) {
         double[] datos = {10, 20, 30, 40, 50};
-        System.out.println("Media = " + calcularMedia(datos));
+        System.out.printf("Media = %.2f%n", calcularMedia(datos));
     }
 }
